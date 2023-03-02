@@ -21,7 +21,7 @@ export default function SimpleContainer() {
   const [inputs, setInputs] = useInput({ country: 'TR', year: '2022' });
   // const [holidays, setHolidays] = useState([]);
 
-  let url = `https://calendarific.com/api/v2/holidays?&api_key=10f001544440a81af70f35d551c2d6cdc85a1a94
+  let url = `https://calendarific.com/api/v2/holidays?&api_key=54b18a60b1daeec7d89dabb1d3c12b5c3e5e329b
 &country=${inputs.country}&year=${inputs.year}&type=national`;
 
   const [data, loading, getData] = useFetch(
