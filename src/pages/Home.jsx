@@ -105,7 +105,7 @@ export default function SimpleContainer() {
                 {loading ? (
                   <h2>Loading...</h2>
                 ) : (
-                  data.map((item, index) => {
+                  data?.map((item, index) => {
                     const {
                       country: { name: ctname },
                       date: { iso },
